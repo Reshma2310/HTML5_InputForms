@@ -1,0 +1,58 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Website Layout</title>
+        <link rel="stylesheet" href="../css/style_web.css">
+    </head>
+    <body>
+        <div>
+            <header class="headerContainer"><h1>RBT Engineering College</h1></header>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="../Pages/index.html">Home</a></li>
+                    <li><a href="../Pages/courses.html">Courses</a></li>
+                    <li><a href="../Pages/gallery.html">Gallery</a></li>
+                    <li><a href="../Pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mainContainer">
+            <section class="mainContentItem contactClass">
+                <h2 style="margin: 30px;">Contact Us</h2><hr>
+                <p><a href="#">Email</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Facbook</a></p>
+            </section>
+            <sideBar class="sideBarItem sideBarRightItem">
+                <div class="center">
+                    <h3>Comment your thought</h3><hr>
+                    <form>
+                        <div class="formInput">
+                            <label for="text">Name</label><br>
+                            <input type="text" id="text" name="text" title="Enter your Name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="formInput">
+                            <label for="email">Email</label><br>
+                            <input type="email" ids"email" name="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="formInput">        
+                            <label for="text">Comment</label><br>
+                            <input style="height: 100px;" type="comment" id="comment" name="comment" title="Enter your Comment" placeholder="Enter your Comment">
+                        </div> 
+                        <div>
+                            <button id="myButton">Submit</button>
+                        </div>  
+                    </form> 
+                </div>
+            </sideBar>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+        <script>
+            document.getElementById("myButton").addEventListener("click", function() {
+              alert("Thankyou for the Comment, Successfully saved your comment");
+            });
+        </script>
+    </body>
+</html>

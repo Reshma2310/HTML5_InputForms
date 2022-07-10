@@ -1,0 +1,76 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Website Layout</title>
+        <link rel="stylesheet" href="../css/style_web.css">
+    </head>
+    <body>
+        <div>
+            <header class="headerContainer"><h1>RBT Engineering College</h1></header>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="../Pages/index.html">Home</a></li>
+                    <li><a href="../Pages/courses.html">Cources</a></li>
+                    <li><a href="../Pages/gallery.html">Gallery</a></li>
+                    <li><a href="../Pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mainContainer">
+            <section class="mainContentItem bgImage">
+                <article>
+                    <h2>VISION</h2>
+                    <p class="textContent">Our vision is to empower students to acquire, demonstrate, articulate and value 
+                        knowledge and skills that will support them, as life-long learners, to participate in and 
+                        contribute to the global world and practise the core values of the college: respect, tolerance & inclusion, and excellence.</p>
+                </article>
+                <article>
+                    <h2>MISSION</h2>
+                    <p class="textContent">Our focus is to provide a stimulating early learning and child care experience which promotes each
+                        child's social/emotional, physical and cognitive development.</p>
+                </article>
+                <article>
+                    <h2>OUR POLICY</h2>
+                    <p class="textContent">Our College of Engineering, Kurnool is committed to become a centre 
+                        of excellence with quality infrastructure imparting value based education on par with
+                        International Standards by adopting modern training
+                        methodologies and fulfilling the expectations of all the stakeholders.</p>
+                        <p>This shall be achieved through</p>
+                    <p class="textContent"> * Training the Students to meet the challenges in the Society and Industry<br>
+                        * Enhancing the competence of faculty and encouraging R & D Work.<br>
+                        * Providing well designed infrastructure and good learning environment.<br>
+                        * Inculcating high ethical and moral values among the students.</p>
+                </article>
+            </section>
+            <sideBar class="sideBarItem sideBarRightItem">
+                <div class="center">
+                    <h3>Comment Us</h3><hr>
+                    <form>
+                        <div class="formInput">
+                            <label for="text">Name</label><br>
+                            <input type="text" id="text" name="text" title="Enter your Name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="formInput">
+                            <label for="email">Email</label><br>
+                            <input type="email" ids"email" name="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="formInput">        
+                            <label for="text">Comment</label><br>
+                            <input style="height: 100px;" type="comment" id="comment" name="comment" title="Enter your Comment" placeholder="Enter your Comment">
+                        </div> 
+                        <div>
+                            <button id="myButton">Submit</button>
+                        </div>  
+                    </form> 
+                </div>
+            </sideBar>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+        <script>
+            document.getElementById("myButton").addEventListener("click", function() {
+              alert("Thankyou for the Comment, Successfully saved your comment");
+            });
+        </script>
+    </body>
+</html>

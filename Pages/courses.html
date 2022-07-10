@@ -1,0 +1,97 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Website Layout</title>
+        <link rel="stylesheet" href="../css/style_web.css">
+    </head>
+    <body>
+        <div>
+            <header class="headerContainer"><h1>RBT Engineering College</h1></header>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="../Pages/index.html">Home</a></li>
+                    <li><a href="../Pages/courses.html">Cources</a></li>
+                    <li><a href="../Pages/gallery.html">Gallery</a></li>
+                    <li><a href="../Pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mainContainer">
+            <section class="mainContentItem">
+                <div class="media">
+                    <img class="media-objectLeft" src="../assets/ECE1.jpg" alt="ECE" title="ECE">
+                    <div class="media-body">
+                      <h3 class="media-heading">ECE</h3>
+                      <p>Electronics and Communications Engineering (ECE) involves researching, designing, 
+                        developing, and testing electronic equipment used in various systems. Electronics and Communications engineers also conceptualize and 
+                        oversee the manufacturing of communications and broadcast systems. </p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="media-objectRight" src="../assets/CSE1.jpg" alt="CSE" title="ECE">
+                    <div class="media-body">
+                      <h3 class="media-heading">CSE</h3>
+                      <p>Computer Science Engineering (CSE) is an academic programme that integrates the fieldof Computer Engineering
+                        and Computer Science. It is one of the most sought after courses amongst engineering students. The course contains a plethora
+                        of topics but emphasises the basics of computer programming and networking.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="media-objectLeft" src="../assets/MECH.jpg" alt="MECH" title="ECE">
+                    <div class="media-body">
+                      <h3 class="media-heading">MECH</h3>
+                      <p>Mechanical engineering is the discipline that applies engineering physics, engineering 
+                        mathematics, and materials science principles to design, 
+                        analyze, manufacture, and maintain mechanical systems.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="media-objectRight" src="../assets/CIVIL.jpg" alt="CSE" title="ECE">
+                    <div class="media-body">
+                      <h3 class="media-heading">CIVIL</h3>
+                      <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and 
+                        maintenance of the physical and naturally built environment, including public works such as roads, etc.,</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="media-objectLeft" src="../assets/EEE.jpg" alt="EEE" title="ECE">
+                    <div class="media-body">
+                      <h3 class="media-heading">EEE</h3>
+                      <p>Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and 
+                        systems which use electricity, electronics, and electromagnetism.</p>
+                    </div>
+                </div>
+                
+            </section>
+            <sideBar class="sideBarItem sideBarRightItem">
+                <div class="center">
+                    <h3>Comment Us</h3><hr>
+                    <form>
+                        <div class="formInput">
+                            <label for="text">Name</label><br>
+                            <input type="text" id="text" name="text" title="Enter your Name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="formInput">
+                            <label for="email">Email</label><br>
+                            <input type="email" ids"email" name="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="formInput">        
+                            <label for="text">Comment</label><br>
+                            <input style="height: 100px;" type="comment" id="comment" name="comment" title="Enter your Comment" placeholder="Enter your Comment">
+                        </div> 
+                        <div>
+                            <button id="myButton">Submit</button>
+                        </div>  
+                    </form> 
+                </div>
+            </sideBar>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+        <script>
+            document.getElementById("myButton").addEventListener("click", function() {
+              alert("Thankyou for the Comment, Successfully saved your comment");
+            });
+        </script>
+    </body>
+</html>

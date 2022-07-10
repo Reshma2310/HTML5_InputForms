@@ -1,0 +1,144 @@
+
+            body { padding: 2em;}
+            .headerContainer {
+                display: flex;
+                color: whitesmoke;
+                flex-flow: column wrap;
+                align-content: center;
+                background: rgb(107, 168, 239);
+                font-weight: bold;
+                padding: 10px;
+            }
+            .footerContainer {
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: lightgreen;
+                font-weight: bold;
+                padding: 10px;
+            }
+            .mainContainer {
+                display: flex;                
+                flex-flow: row wrap;
+                text-align: center; 
+                background-color: #F6F3EB;               
+            }
+            .mainContentItem {
+                text-align: left;
+            }
+            .bgImage {
+              background-image: url(../assets/image5.png);
+            }
+            .mainContentItem h2{
+                color: rgb(58, 14, 140);
+                text-shadow: 2px 2px white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .textContent{
+                font-size: 18px;
+                
+            }
+            article {
+                padding: 10px;
+                margin: 10px;                
+            }            
+            .sideBarRightItem { background: skyblue;}
+            .sideBarItem { flex: 1 0 0; border: 0px solid green;}
+            .mainContentItem { flex: 3;}            
+            
+            .navBar {
+                display: inline-flex;                
+                margin: auto;  
+                align-items: center;
+                justify-content: space-between; 
+                background:blueviolet;
+                width: 100%; 
+            }
+            .navBar ul{
+                display: inline-flex;
+            }
+            .navBar ul li{
+                list-style: none;
+                margin-left: 10px;
+            }
+            .navBar ul li:first-child{
+                margin-left: 0px;
+            }
+            .formInput {
+                margin: 20px;
+                line-height: 1.5em;;
+            }
+.navBar ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.navBar ul li a:hover{
+  background: #fff;
+  color: black;
+}
+label, input, button {
+    font-size: 14px;    
+}
+input {    
+    width: 75%;
+    border: #fff solid 0.2px;
+    border-radius: 3px; 
+    flex: auto; 
+}
+button {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.imageClass img {
+  margin: 30px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  width: 30vw;
+  object-fit: cover;
+  height: 180px;
+}
+.media {
+  display: flex;
+  align-items: flex-start;
+  background: #F6F3EB;
+  padding: 1em;
+  border-radius: 3px;
+}
+.media-objectLeft {
+  margin-right: 1em;
+  width: 200px;
+}
+.media-objectRight {
+  margin-left: 1em;
+  width: 200px;
+  order: 1;
+}
+.media-body {
+  flex: 1;
+  font-size: 17px;
+}
+.media-heading {
+  margin: 0 0 .5em;
+  font-size: 20px;
+  font-style: italic;
+}
+.media img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.contactClass p{
+  margin: 30px;
+  text-align: center;
+}
+.contactClass p a{
+ text-decoration: none;
+ font-size: large;
+}
