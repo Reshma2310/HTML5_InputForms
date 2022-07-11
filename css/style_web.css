@@ -1,73 +1,71 @@
 
-            body { padding: 2em;}
-            .headerContainer {
-                display: flex;
-                color: whitesmoke;
-                flex-flow: column wrap;
-                align-content: center;
-                background: rgb(107, 168, 239);
-                font-weight: bold;
-                padding: 10px;
-            }
-            .footerContainer {
-                display: flex;
-                flex-flow: column wrap;
-                align-content: center;
-                background: lightgreen;
-                font-weight: bold;
-                padding: 10px;
-            }
-            .mainContainer {
-                display: flex;                
-                flex-flow: row wrap;
-                text-align: center; 
-                background-color: #F6F3EB;               
-            }
-            .mainContentItem {
-                text-align: left;
-            }
-            .bgImage {
-              background-image: url(../assets/image5.png);
-            }
-            .mainContentItem h2{
-                color: rgb(58, 14, 140);
-                text-shadow: 2px 2px white;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .textContent{
-                font-size: 18px;
-                
-            }
-            article {
-                padding: 10px;
-                margin: 10px;                
-            }            
-            .sideBarRightItem { background: skyblue;}
-            .sideBarItem { flex: 1 0 0; border: 0px solid green;}
-            .mainContentItem { flex: 3;}            
-            
-            .navBar {
-                display: inline-flex;                
-                margin: auto;  
-                align-items: center;
-                justify-content: space-between; 
-                background:blueviolet;
-                width: 100%; 
-            }
-            .navBar ul{
-                display: inline-flex;
-            }
-            .navBar ul li{
-                list-style: none;
-                margin-left: 10px;
-            }
-            .navBar ul li:first-child{
-                margin-left: 0px;
-            }
-            .formInput {
-                margin: 20px;
-                line-height: 1.5em;;
-            }
+body { padding: 2em;}
+.headerContainer {
+  display: flex;
+  color: whitesmoke;
+  flex-flow: column wrap;
+  align-content: center;
+  background: rgb(107, 168, 239);
+  font-weight: bold;
+  padding: 10px;
+}
+.footerContainer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background: lightgreen;
+  font-weight: bold;
+  padding: 10px;
+}
+.mainContainer {
+  display: flex;                
+  flex-flow: row wrap;
+  text-align: center; 
+  background-color: #F6F3EB;               
+}
+.mainContentItem {
+  text-align: left;
+}
+.bgImage {
+background-image: url(../assets/image5.png);
+}
+.mainContentItem h2{
+  color: rgb(58, 14, 140);
+  text-shadow: 2px 2px white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textContent{
+  font-size: 18px;                
+}
+article {
+  padding: 10px;
+  margin: 10px;                
+}            
+.sideBarRightItem { background: skyblue;}
+.sideBarItem { flex: 1 0 0; border: 0px solid green;}
+.mainContentItem { flex: 3;}
+.navBar {
+  display: inline-flex;                
+  margin: auto;  
+  align-items: center;
+  justify-content: space-between; 
+  background:blueviolet;
+  width: 100%; 
+}
+.navBar ul{
+  display: inline-flex;
+}
+.navBar ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+.navBar ul li:first-child{
+  margin-left: 0px;
+}
+.formInput {
+  margin: 20px;
+  line-height: 1.5em;;
+}         
 .navBar ul li a{
   text-decoration: none;
   color: #fff;
@@ -141,4 +139,13 @@ button {
 .contactClass p a{
  text-decoration: none;
  font-size: large;
+}
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+  h1 {
+      font-size: 40px;
+      text-align: center;
+  }
+  .textContent{
+    font-size: 8px;    
+  } 
 }
